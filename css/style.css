@@ -1,0 +1,18 @@
+.navbar__container {
+  font-family: "Bebas Neue";
+  background-color: black;
+  border-bottom: 1px solid white;
+  padding: 20px 0;
+}
+.navbar__container__title {
+  font-size: 26px;
+}
+.navbar__container__options {
+  font-family: roboto;
+}
+
+.main__main {
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
