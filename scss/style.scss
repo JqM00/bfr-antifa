@@ -1,20 +1,61 @@
+body {
+    background-image: url(https://i.imgur.com/lzb6Z3p.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    // background-size: cover;
+    height: 900px;
+}
+
+img {
+    opacity: 1;
+}
 .navbar__container {
     font-family: "Bebas Neue";
-    background-color: black;
+    // background-color: black;
     border-bottom: 1px solid white;
     padding: 20px 0;
 
     &__title {
-        font-size: 26px; 
+        font-size: 2rem; 
     }
 
     &__options {
-        font-family: roboto;
+        font-family: oswald;
+        font-size: 1.1rem;
+        letter-spacing: 0.15rem;
+        // font-family: raleway;
+        // font-size: 1.2rem;
+        // letter-spacing: 0.1rem;
+        // font-family: 'work sans';
+        // font-size: 1.3rem;
+        // // letter-spacing: 0.1rem;
+    }
+
+    &__menu {
+        padding: 0 1rem;
+    }
+
+    &__media {
+        padding: 0.5rem 0.3rem;
+        margin-left: 2.5rem;
+        display:flex;
+        justify-content: space-between;
+        border-left: 1px solid #A3A1A8;
+    }
+    &__icons {
+        margin:0 1.5rem;
+        color:#A3A1A8;
     }
 }
 
-.main__main {
+.main {
     background-color: black;
+
+    &__logo {
+        margin: -7rem;
+        opacity: 0.5;
+    }
 }
 
 // 'Bebas Neue', 'fjalla one', teko, squada one
