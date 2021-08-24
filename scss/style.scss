@@ -1,10 +1,10 @@
-body {
-    background-image: url(https://i.imgur.com/lzb6Z3p.png);
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position: center;
-    // background-size: cover;
-    height: 900px;
+ body {
+//     background-image: url(https://i.imgur.com/lzb6Z3p.png);
+//     background-repeat: no-repeat;
+       background-color: black;
+//     background-position: center;
+//     // background-size: cover;
+//     height: 900px;
 }
 
 img {
@@ -56,6 +56,47 @@ img {
         margin: -7rem;
         opacity: 0.5;
     }
+
+    &__title {
+        font-size: 2rem;
+        margin: 3rem;
+    }
+
+    &__title-about {
+        font-size: 2rem;
+        margin: 3rem;
+    }
+
+    &__about {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    &__history {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    &__texts {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+}
+
+#about {
+    color: white;
+}
+
+.img-carousel-1 {
+    object-fit: contain;
+    object-position: center 25%;
+    height: 600px;
 }
 
 // 'Bebas Neue', 'fjalla one', teko, squada one

@@ -1,9 +1,5 @@
 body {
-  background-image: url(https://i.imgur.com/lzb6Z3p.png);
-  background-repeat: no-repeat;
   background-color: black;
-  background-position: center;
-  height: 900px;
 }
 
 img {
@@ -44,6 +40,42 @@ img {
 .main__logo {
   margin: -7rem;
   opacity: 0.5;
+}
+.main__title {
+  font-size: 2rem;
+  margin: 3rem;
+}
+.main__title-about {
+  font-size: 2rem;
+  margin: 3rem;
+}
+.main__about {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.main__history {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.main__texts {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+#about {
+  color: white;
+}
+
+.img-carousel-1 {
+  object-fit: contain;
+  object-position: center 25%;
+  height: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */
